@@ -1,6 +1,6 @@
-﻿int a = 2, b = 3, c = 7;
+﻿int a = 44, b = 5, c = 78;
 
-if (a>b)
+if (a>b && a>c)
 {
  Console.WriteLine ("Number Max = " +a);
 }
@@ -9,7 +9,7 @@ if (a>b)
   Console.WriteLine ("Number Max = " +b);
 
 }
-else if (c>a)
+else 
 {
 Console.WriteLine ("Number Max = " +c);
 }
