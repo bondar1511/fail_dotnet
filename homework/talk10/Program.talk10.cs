@@ -6,7 +6,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string str = 456.ToString();
+        string str = 782.ToString();
         Console.WriteLine(str[1]);
     }
 }
