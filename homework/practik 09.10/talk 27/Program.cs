@@ -14,8 +14,8 @@
                 sum = sum + X % 10;
                  X = X /10 ;
                
-              
-            }
               Concole.Writeline(sum);
+            }
+              
         
     
