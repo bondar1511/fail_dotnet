@@ -5,25 +5,24 @@
 internal class NewBaseType
 {
     private static void Main(string[] args)
-    {
+{
+Console.Write("Введите элементы(через пробел): ");
+int[] num = new int[5];
 
-        Console.Write("Введите несколько чисел");
-
-        int[] num = new int[5];
-
+   
         for (int i = 0; i < num.Length; i++)
         {
             int Result = 0;
 
-            while (num[i] > 0)
+            if (num[i] > 0)
             {
                 Result = num[i];
-                Result++;
-               
-
-                Console.WriteLine($"количество элементов > 0:{Result}");
-
-            }
+             }
+            
+              Result++;
+            
+            
+            Console.WriteLine($"количество элементов > {Result}");
 
 
 
